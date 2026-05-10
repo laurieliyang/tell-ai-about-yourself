@@ -1,0 +1,98 @@
+# User Profile Template for Tell AI About Yourself
+# 
+# Save this as `/memories/user-profile.yaml` after filling in your information.
+# AI will automatically load and apply these preferences to all responses.
+# All sections are optional - fill what's relevant to you.
+
+profile:
+  # === ABOUT YOU ===
+  personal:
+    name: "Your Name"
+    timezone: "UTC+8"  # Your timezone for context
+    language: "English"  # Primary language for responses
+    
+  # === PROFESSIONAL ===
+  profession:
+    job_title: "e.g., Software Engineer, Product Manager, Data Scientist"
+    industry: "e.g., Finance, Healthcare, E-commerce, Education"
+    experience_years: 5  # Years in current field
+    expertise_level: "intermediate"  # novice | intermediate | advanced | expert
+    team_size: "10+"  # Size of your immediate team
+    
+  # === CURRENT WORK ===
+  current_project:
+    name: "Project name or initiative"
+    description: "Brief description of what you're building"
+    tech_stack: ["JavaScript", "React", "Node.js"]  # Technologies you use
+    status: "in-progress"  # planning | in-progress | maintenance
+    timeline: "Q2 2026"  # Approximate deadline or milestone
+    challenges: 
+      - "Performance optimization"
+      - "Team onboarding"
+    
+  # === GOALS ===
+  goals:
+    short_term:
+      - "Complete feature X by end of month"
+      - "Improve test coverage to 80%"
+    medium_term:
+      - "Lead a team of 3-5 engineers"
+      - "Master microservices architecture"
+    long_term:
+      - "Transition to technical leadership"
+      - "Build a side project to 10k users"
+    learning_targets:
+      - "Cloud deployment (AWS/Azure)"
+      - "System design patterns"
+  
+  # === CHALLENGES & CONSTRAINTS ===
+  challenges:
+    technical:
+      - "Legacy codebase with poor documentation"
+      - "Database performance issues"
+    organizational:
+      - "Tight deadlines"
+      - "Limited resources"
+    personal:
+      - "Time constraints (part-time availability)"
+      - "Lack of specific domain knowledge"
+  
+  # === PREFERENCES ===
+  preferences:
+    communication_style: "direct"  # direct | detailed | conversational | academic
+    code_examples: "preferred"  # preferred | minimal | comprehensive
+    detail_level: "balanced"  # high-level | balanced | deep-dive
+    documentation: "inline-comments"  # minimal | inline-comments | comprehensive
+    learning_style: "hands-on"  # visual | written | hands-on | interactive
+    
+  # === CODE STYLE PREFERENCES ===
+  code_preferences:
+    primary_language: "JavaScript"
+    languages: ["JavaScript", "Python", "SQL"]
+    style_guide: "Airbnb"  # or any other style guide you follow
+    formatting_tool: "Prettier"
+    prefer_typescript: true
+    naming_convention: "camelCase"  # camelCase | snake_case | PascalCase
+    
+  # === WORK ENVIRONMENT ===
+  environment:
+    team_structure: "remote"  # remote | hybrid | on-site
+    collaboration_tools: ["Slack", "GitHub", "Jira"]
+    version_control: "Git"
+    ci_cd_platform: "GitHub Actions"  # or GitLab CI, Jenkins, etc.
+    
+  # === ADDITIONAL CONTEXT ===
+  custom:
+    dislikes:
+      - "Over-complicated solutions"
+      - "Verbose documentation"
+      - "Outdated dependencies"
+    likes:
+      - "Clean, readable code"
+      - "Comprehensive test coverage"
+      - "Agile workflows"
+    dos_and_donts:
+      - "DO: Suggest performance optimizations"
+      - "DON'T: Recommend alpha/beta libraries"
+      - "DO: Provide production-ready code"
+    special_notes: "Any other context for the AI to understand"
