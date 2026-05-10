@@ -159,7 +159,7 @@ AI:  "Given that you're building a microservices system with your
 | Profile not being used | Verify file exists at `/memories/user-profile.md` or `.yaml` |
 | Need to update profile | Run setup script again or edit file directly |
 | Want to reset | Delete profile file and run setup script |
-| File location unclear | See [USAGE.md](.github/skills/tell-ai-about-yourself/references/USAGE.md#file-locations) |
+| File location unclear | See [USAGE.md](./references/USAGE.md) |
 
 ## 🤝 Contributing
 
